@@ -1,0 +1,17 @@
+.container {
+  padding: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.video {
+  flex-basis: 70%;
+}
+.title {
+  margin-top: 20px;
+  font-size: 22px;
+  line-height: 24px;
+  text-align: center;
+  color: #007177;
+  flex-basis: 30%;
+}

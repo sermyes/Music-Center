@@ -1,0 +1,65 @@
+@value mainImgURL, updateImgURL, listImgURL, boardImgURL from './common/background.css';
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.section {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+}
+
+.updated,
+.list {
+  padding: 30px 60px;
+}
+
+.main::after,
+.updated::after,
+.request::after,
+.list::after {
+  width: 100%;
+  height: 100%;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.9;
+}
+
+.main::after {
+  background-image: mainImgURL;
+}
+
+.updated::after {
+  background-image: updateImgURL;
+}
+
+.request::after {
+  background-image: boardImgURL;
+}
+
+.list::after {
+  background-image: listImgURL;
+}
+
+@media screen and (max-width: 991px) {
+  .section {
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 591px) {
+  .section {
+    padding: 20px;
+  }
+}

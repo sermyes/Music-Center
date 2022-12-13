@@ -1,0 +1,35 @@
+.titleContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.title {
+  text-align: center;
+  color: white;
+  font-size: 38px;
+  letter-spacing: 0.6rem;
+  line-height: 40px;
+  font-weight: 700;
+  width: 100%;
+  padding: 20px 0;
+}
+.boardContainer {
+  width: 90%;
+  margin: 0 auto 10px;
+  flex: 1;
+}
+
+.board {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  padding: 10px;
+  display: flex;
+}
+
+@media screen and (max-width: 991px) {
+  .boardContainer {
+    width: 100%;
+  }
+}

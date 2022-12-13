@@ -1,0 +1,112 @@
+.container {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mainContent {
+  flex-basis: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+.titleContainer {
+  position: relative;
+  width: 100%;
+  padding: 30px 0;
+  border: 2px solid #fff;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 80px;
+}
+.titleContainer:after {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 80px;
+  bottom: -80px;
+  background: #fff;
+}
+.title {
+  font-weight: 700;
+  font-size: 58px;
+  text-transform: none;
+  letter-spacing: 0.2em;
+  line-height: 1.2em;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.description {
+  font-weight: 500;
+  font-style: italic;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  display: block;
+  line-height: 20px;
+}
+.contactContainer {
+  display: flex;
+  justify-content: center;
+  border: 2px solid #fff;
+  border-left: none;
+  border-right: none;
+  padding: 20px;
+  background: transparent;
+}
+.contact {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  background: #fff;
+  opacity: 0.8;
+  padding-top: 3px;
+}
+.contact:not(:first-child) {
+  margin-left: 15px;
+}
+.contact:hover {
+  opacity: 1;
+}
+.contact_icon {
+  font-size: 24px;
+  color: #00adb5;
+}
+
+.btnContainer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 40%;
+}
+.btn {
+  border: 2px solid #fff;
+  background: #fff;
+  width: 200px;
+  height: 80px;
+  color: #00adb5;
+  display: block;
+  font-size: 20px;
+  padding: 15px 0;
+  font-weight: 400;
+  line-height: 1.8;
+  border-radius: 30px;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn:hover {
+  box-shadow: 0px 6px 15px 0px rgba(255, 255, 255, 0.75);
+}
+
+.icon {
+  margin-right: 10px;
+}

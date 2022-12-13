@@ -1,0 +1,63 @@
+.titleContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  flex-basis: 25%;
+}
+.title {
+  text-align: center;
+  color: white;
+  font-size: 38px;
+  line-height: 40px;
+  letter-spacing: 0.6rem;
+  font-weight: 700;
+  width: 100%;
+  padding: 50px 0;
+}
+.listContainer {
+  width: 90%;
+  margin: 0 auto 10px;
+  flex: 1;
+  z-index: 1;
+  padding: 0px 100px;
+}
+.list {
+  display: flex;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.list > div {
+  flex-basis: 32%;
+}
+
+@media screen and (max-width: 991px) {
+  .listContainer {
+    width: 100%;
+  }
+  .titleContainer {
+    flex-basis: 30%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .list > div {
+    box-sizing: border-box;
+    flex-basis: 49%;
+  }
+  .list > div:nth-child(3) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 591px) {
+  .container {
+    width: 80%;
+    height: 65%;
+  }
+  .titleContainer {
+    flex-basis: 40%;
+  }
+}
