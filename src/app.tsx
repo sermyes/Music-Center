@@ -62,9 +62,7 @@ function App({ youtube, postRespository }: AppProps) {
       <section className={`requestSection ${styles.section} ${styles.request}`}>
         <MusicRequest postRespository={postRespository} />
       </section>
-
       <Navigation />
-
       {selectedVideo && (
         <Modal onClose={onVideoClick}>
           <VideoDetail video={selectedVideo} />
