@@ -2,6 +2,7 @@ import React from 'react';
 import { Video } from '../../app';
 import VideoItem from '../videoItem/videoItem';
 import styles from './musicList.module.css';
+import SimpleSlider from './../simpleSlider/simpleSlider';
 
 interface MusicListProps {
   videos: Video[];
@@ -31,7 +32,7 @@ const MusicList = ({ videos, onVideoClick }: MusicListProps) => {
       </div>
       <div className={styles.sliderContainer}>
         <div className={styles.slider}>
-          {/* <SimpleSlider settings={settings}>
+          <SimpleSlider settings={settings}>
             {videos &&
               videos.map((video) => (
                 <VideoItem
@@ -40,7 +41,7 @@ const MusicList = ({ videos, onVideoClick }: MusicListProps) => {
                   onVideoClick={onVideoClick}
                 />
               ))}
-          </SimpleSlider> */}
+          </SimpleSlider>
         </div>
       </div>
     </>

@@ -27,6 +27,7 @@
   padding: 50px 30px;
   position: relative;
 }
+
 :global .slick-slider {
   margin-bottom: 15px;
   height: 100%;

@@ -10,7 +10,13 @@ interface ModalProps {
 
 function Modal({ children, onClose }: ModalProps) {
   useEffect(() => {
-    document.body.style.cssText = `position:fixed`;
+    const htmlElement = document.querySelector('html')! as HTMLHtmlElement;
+    const scrollY = htmlElement.scrollTop;
+    document.body.style.cssText = `position:fixed; top:-${scrollY}px;`;
+    return () => {
+      document.body.style.cssText = `position:static; top:'';`;
+      htmlElement.scrollTop = scrollY;
+    };
   });
 
   return (
@@ -18,7 +24,12 @@ function Modal({ children, onClose }: ModalProps) {
       <div className={styles.overlay} />
       <div className={styles.wrapper}>
         <div className={styles.inner}>
-          <button className={styles.iconBtn} onClick={() => onClose(null)}>
+          <button
+            className={styles.iconBtn}
+            onClick={() => {
+              onClose(null);
+            }}
+          >
             <i className={`${styles.icon} fas fa-times`} />
           </button>
           {children}

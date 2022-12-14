@@ -1,0 +1,81 @@
+.input {
+  border: none;
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+}
+.typeContainer {
+  flex-basis: 20%;
+  margin-bottom: 5px;
+}
+.info {
+  flex-basis: 20%;
+  margin-bottom: 10px;
+}
+.wrapper {
+  flex-basis: 60%;
+  position: relative;
+}
+.type {
+  outline: none;
+  min-width: 150px;
+  font-weight: bold;
+}
+.notice {
+  color: red;
+}
+.question,
+.request {
+  background: #fff;
+  color: #000;
+}
+.request,
+.question,
+.notice {
+  font-weight: bold;
+}
+.info > label {
+  margin-right: 5px;
+  font-size: 14px;
+}
+.info > input[type='text'],
+.info > input[type='password'] {
+  box-sizing: border-box;
+  margin-right: 20px;
+  padding: 1px 5px;
+  outline: none;
+  min-width: 80px;
+}
+.content {
+  resize: none;
+  outline: none;
+  padding: 5px;
+  height: 60px;
+  width: 100%;
+}
+.confirm {
+  position: absolute;
+  font-size: 14px;
+  font-weight: bold;
+  right: 2%;
+  bottom: 15%;
+  text-align: center;
+  letter-spacing: 0.05rem;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  opacity: 0.6;
+  transition: opacity 0.2s ease-in;
+}
+.confirm:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 991px) {
+  .info > input[type='text'],
+  .info > input[type='password'] {
+    margin-right: 10px;
+    width: 100px;
+  }
+}

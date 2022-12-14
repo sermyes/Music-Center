@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+
+.notice {
+  margin-bottom: 5px;
+}
+.lists {
+  flex-basis: 80%;
+  background-color: rgba(1, 113, 119, 0.1);
+  border: 2px ridge rgba(0, 0, 0, 0.5);
+  list-style: none;
+  overflow-x: hidden;
+}
+
+.form {
+  flex-basis: 20%;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  margin-top: 5px;
+}

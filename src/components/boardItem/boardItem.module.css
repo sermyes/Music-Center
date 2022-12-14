@@ -1,0 +1,149 @@
+.nameWrapper,
+.itemContent,
+.date,
+.noticeContent,
+.type,
+.admin,
+.writer {
+  pointer-events: none;
+}
+
+.item,
+.notice {
+  text-align: center;
+  padding: 6px 10px;
+  display: flex;
+  align-items: center;
+}
+.notice {
+  font-weight: bold;
+}
+.item {
+  color: #000;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 12px;
+}
+
+.notice {
+  color: red;
+  border-bottom: 1px solid rgba(255, 0, 0, 0.3);
+  font-size: 12px;
+}
+.type {
+  flex-basis: 10%;
+  font-weight: bold;
+}
+.noticeContent,
+.itemContent {
+  padding: 0 5px;
+  flex-basis: 55%;
+}
+
+.nameWrapper,
+.adminWrapper {
+  flex-basis: 20%;
+  position: relative;
+}
+.adminWrapper {
+  margin-right: 10%;
+}
+.name {
+  padding-right: 5px;
+}
+.writer,
+.admin {
+  font-size: 10px;
+  padding: 2px 4px;
+  border-radius: 10px;
+  position: absolute;
+  width: 42px;
+}
+.writer {
+  border: 1px solid rgb(21, 181, 0);
+  color: rgb(21, 181, 0);
+  font-weight: bold;
+}
+.admin {
+  border: 1px solid red;
+  color: red;
+}
+.date {
+  flex-basis: 10%;
+}
+.new {
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  font-size: 10px;
+  width: 12px;
+  line-height: 12px;
+  border-radius: 4px;
+  margin-left: 2px;
+  top: -1px;
+  background: rgb(255, 30, 0);
+  color: #fff;
+}
+/* list item css */
+
+.option {
+  text-align: left;
+  position: relative;
+  flex-basis: 5%;
+}
+.optionBtn {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.elipsis {
+  display: block;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  margin-bottom: 1px;
+  border-radius: 50%;
+  pointer-events: none;
+}
+.deleteBtn {
+  top: -4px;
+  left: 15%;
+  cursor: pointer;
+  outline: none;
+  font-weight: bold;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  width: 40px;
+  color: rgba(0, 0, 0, 0.6);
+  transition: color 0.2s;
+}
+.deleteBtn:hover {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+:global .delBtn.active {
+  opacity: 1 !important;
+  pointer-events: all !important;
+}
+/* delete btn css */
+
+@media screen and (max-width: 991px) {
+  .admin,
+  .writer {
+    margin-top: 2px;
+    margin: auto;
+    position: static;
+    display: block;
+  }
+  .adminWrapper,
+  .nameWrapper {
+    flex-basis: 15%;
+  }
+  .option {
+    flex-basis: 10%;
+  }
+}
