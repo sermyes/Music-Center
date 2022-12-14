@@ -1,4 +1,4 @@
-import { Video } from '../../app';
+import { Video } from '../../service/youtube';
 import VideoItem from '../videoItem/videoItem';
 import styles from './musicUpdate.module.css';
 

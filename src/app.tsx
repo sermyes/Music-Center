@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import styles from './app.module.css';
-import Youtube from './service/youtube';
+import Youtube, { Video } from './service/youtube';
 import PostRespository from './service/post_respository';
 import Modal from './components/modal/modal';
 import VideoDetail from './components/videoDetail/videoDetail';
@@ -14,44 +14,6 @@ interface AppProps {
   youtube: Youtube;
   postRespository: PostRespository;
 }
-
-export type Video = {
-  kind: string;
-  etag: string;
-  id: string;
-  snippet: Snippet;
-};
-
-type Snippet = {
-  publishedAt: string;
-  channelId: string;
-  title: string;
-  description: string;
-  thumbnails: Thumbnails;
-  channelTitle: string;
-  playlistId: string;
-  position: number;
-  resourceId: ResourceId;
-  videoOwnerChannelTitle: string;
-  videoOwnerChannelId: string;
-};
-
-type Thumbnails = {
-  default: object;
-  medium: {
-    url: string;
-    width: number;
-    height: number;
-  };
-  high: object;
-  standard: object;
-  maxres: object;
-};
-
-type ResourceId = {
-  kind: string;
-  videoId: string;
-};
 
 function App({ youtube, postRespository }: AppProps) {
   const [videos, setVideos] = useState<Video[] | []>([]);

@@ -1,5 +1,4 @@
-import React from 'react';
-import { Video } from '../../app';
+import { Video } from '../../service/youtube';
 import styles from './videoDetail.module.css';
 
 interface VideoDetailProps {

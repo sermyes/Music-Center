@@ -1,5 +1,5 @@
 import { memo } from 'react';
-import { Video } from '../../app';
+import { Video } from '../../service/youtube';
 import styles from './videoItem.module.css';
 
 interface VideoItemProps {

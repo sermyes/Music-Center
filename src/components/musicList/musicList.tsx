@@ -1,8 +1,7 @@
-import React from 'react';
-import { Video } from '../../app';
 import VideoItem from '../videoItem/videoItem';
 import styles from './musicList.module.css';
 import SimpleSlider from './../simpleSlider/simpleSlider';
+import { Video } from '../../service/youtube';
 
 interface MusicListProps {
   videos: Video[];

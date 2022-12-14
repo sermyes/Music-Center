@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Video } from '../../app';
+import { Video } from '../../service/youtube';
 import Portal from '../portal/portal';
 import styles from './modal.module.css';
 
