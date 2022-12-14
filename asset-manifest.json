@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/music-center/static/css/main.e6c91af0.css",
+    "main.js": "/music-center/static/js/main.86ee89c4.js",
+    "index.html": "/music-center/index.html",
+    "main.e6c91af0.css.map": "/music-center/static/css/main.e6c91af0.css.map",
+    "main.86ee89c4.js.map": "/music-center/static/js/main.86ee89c4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c91af0.css",
+    "static/js/main.86ee89c4.js"
+  ]
+}
