@@ -66,7 +66,6 @@ function App({ youtube, postRespository }: AppProps) {
     youtube
       .playList() //
       .then((videos) => {
-        console.log(videos);
         setVideos(
           videos.filter(
             (video: Video) =>
@@ -82,7 +81,9 @@ function App({ youtube, postRespository }: AppProps) {
             .slice(0, 3)
         );
       })
-      .catch((error) => console.log(error));
+      .catch((error) => {
+        throw new Error(error);
+      });
   }, [youtube]);
 
   return (

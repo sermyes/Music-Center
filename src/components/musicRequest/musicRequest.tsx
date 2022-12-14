@@ -26,20 +26,14 @@ const MusicRequest = ({ postRespository }: MusicRequestProps) => {
   useEffect(() => {
     const stopRead = postRespository.getPost((posts) => {
       const question =
-        posts.question &&
-        Object.keys(posts.question).map((key) => posts.question[key]);
+        (posts.question &&
+          Object.keys(posts.question).map((key) => posts.question[key])) ||
+        [];
       const post =
-        posts.post && Object.keys(posts.post).map((key) => posts.post[key]);
+        (posts.post && Object.keys(posts.post).map((key) => posts.post[key])) ||
+        [];
       let updated: PostData[];
-      if (question && post) {
-        updated = [...question, ...post];
-      } else if (question && !post) {
-        updated = [...question];
-      } else if (post && !question) {
-        updated = [...post];
-      } else {
-        return;
-      }
+      updated = [...post, ...question];
 
       updated = updated.sort((a, b) => (a.date > b.date ? -1 : 1));
       setPosts(updated);
