@@ -5,6 +5,7 @@ interface PortalProps {
   children: React.ReactNode;
   elementId: string;
 }
+
 function Portal({ children, elementId }: PortalProps) {
   const rootElement = useMemo(
     () => document.getElementById(elementId),

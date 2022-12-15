@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Video Detail renders correctly 1`] = `
+<div
+  className="container"
+>
+  <iframe
+    allowFullScreen={true}
+    className="video"
+    src="https://www.youtube.com/embed/1"
+    title="youtube player"
+    width="100%"
+  />
+  <h2
+    className="title"
+  >
+    title
+  </h2>
+</div>
+`;
