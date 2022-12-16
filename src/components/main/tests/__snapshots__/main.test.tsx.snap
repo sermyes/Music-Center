@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main Component renders correctly 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="mainContent"
+  >
+    <div
+      className="titleContainer"
+    >
+      <h1
+        className="title"
+      >
+        Music Center
+      </h1>
+      <p
+        className="description"
+      >
+        Free Youtube Music, Melon Top100, Club Music, Show me the money ...
+      </p>
+    </div>
+    <div
+      className="contactContainer"
+    >
+      <a
+        className="contact"
+        href="mailto:sermyes@gmail.com"
+      >
+        <i
+          className="contact_icon fas fa-envelope"
+        />
+      </a>
+      <a
+        className="contact"
+        href="tel:010-6807-5339"
+      >
+        <i
+          className="contact_icon fas fa-phone"
+        />
+      </a>
+      <a
+        className="contact"
+        href="https://github.com/sermyes/musicCenter"
+      >
+        <i
+          className="contact_icon fab fa-github"
+        />
+      </a>
+    </div>
+  </div>
+  <div
+    className="btnContainer"
+  >
+    <button
+      className="btn"
+      onClick={[Function]}
+    >
+      <i
+        className="icon fas fa-music"
+      />
+      Listen Music
+    </button>
+  </div>
+</div>
+`;

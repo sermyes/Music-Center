@@ -9,6 +9,7 @@ import MusicUpdate from './components/musicUpdate/musicUpdate';
 import Main from './components/main/main';
 import MusicList from './components/musicList/musicList';
 import MusicRequest from './components/musicRequest/musicRequest';
+import Portal from './components/portal/portal';
 
 interface AppProps {
   youtube: Youtube;
@@ -64,9 +65,11 @@ function App({ youtube, postRespository }: AppProps) {
       </section>
       <Navigation />
       {selectedVideo && (
-        <Modal onClose={onVideoClick}>
-          <VideoDetail video={selectedVideo} />
-        </Modal>
+        <Portal elementId='modal-root'>
+          <Modal onClose={onVideoClick}>
+            <VideoDetail video={selectedVideo} />
+          </Modal>
+        </Portal>
       )}
     </div>
   );

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal renders correctly 1`] = `
+Array [
+  <div
+    className="overlay"
+  />,
+  <div
+    className="wrapper"
+  >
+    <div
+      className="inner"
+    >
+      <button
+        className="iconBtn"
+        onClick={[Function]}
+      >
+        <i
+          className="icon fas fa-times"
+        />
+      </button>
+      <div>
+        modal
+      </div>
+    </div>
+  </div>,
+]
+`;

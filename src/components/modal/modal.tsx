@@ -20,7 +20,7 @@ function Modal({ children, onClose }: ModalProps) {
   });
 
   return (
-    <Portal elementId='modal-root'>
+    <>
       <div className={styles.overlay} />
       <div className={styles.wrapper}>
         <div className={styles.inner}>
@@ -35,7 +35,7 @@ function Modal({ children, onClose }: ModalProps) {
           {children}
         </div>
       </div>
-    </Portal>
+    </>
   );
 }
 
