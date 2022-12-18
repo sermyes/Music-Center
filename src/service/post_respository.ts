@@ -9,11 +9,11 @@ import {
   Database
 } from 'firebase/database';
 
-type Posts = {
-  admin: Admin;
-  notice: Post;
-  question: Post;
-  post: Post;
+export type Posts = {
+  admin?: Admin;
+  notice?: Post;
+  question?: Post;
+  post?: Post;
 };
 
 export type Post = {
@@ -40,7 +40,7 @@ interface PostRespositoryImpl {
   removePost(post: PostData): void;
 }
 
-type ReadListener = (posts: Posts) => void;
+export type ReadListener = (posts: Posts) => void;
 
 class PostRespository implements PostRespositoryImpl {
   private database: Database;

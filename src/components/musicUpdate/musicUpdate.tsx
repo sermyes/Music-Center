@@ -3,11 +3,11 @@ import VideoItem from '../videoItem/videoItem';
 import styles from './musicUpdate.module.css';
 
 interface MusicUpdateProps {
-  updatedVideo: Video[];
+  updatedVideos: Video[];
   onVideoClick: (video: Video) => void;
 }
 
-const MusicUpdate = ({ updatedVideo, onVideoClick }: MusicUpdateProps) => {
+const MusicUpdate = ({ updatedVideos, onVideoClick }: MusicUpdateProps) => {
   return (
     <>
       <div className={styles.titleContainer}>
@@ -15,8 +15,8 @@ const MusicUpdate = ({ updatedVideo, onVideoClick }: MusicUpdateProps) => {
       </div>
       <div className={styles.listContainer}>
         <div className={styles.list}>
-          {updatedVideo &&
-            updatedVideo.map((video) => (
+          {updatedVideos &&
+            updatedVideos.map((video) => (
               <VideoItem
                 key={video.id}
                 video={video}

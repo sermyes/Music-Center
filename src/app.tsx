@@ -1,7 +1,11 @@
 import { useEffect, useState } from 'react';
 import styles from './app.module.css';
 import Youtube, { Video } from './service/youtube';
-import PostRespository from './service/post_respository';
+import PostRespository, {
+  Post,
+  PostData,
+  Posts
+} from './service/post_respository';
 import Modal from './components/modal/modal';
 import VideoDetail from './components/videoDetail/videoDetail';
 import Navigation from './components/navigation/navigation';
@@ -19,10 +23,19 @@ interface AppProps {
 function App({ youtube, postRespository }: AppProps) {
   const [videos, setVideos] = useState<Video[] | []>([]);
   const [selectedVideo, setSelectedVideo] = useState<Video | null>(null);
-  const [updatedVideo, setUpdatedVideo] = useState<Video[] | []>([]);
+  const [updatedVideos, setUpdatedVideos] = useState<Video[] | []>([]);
+  const [posts, setPosts] = useState<Posts>({});
 
   const onVideoClick = (video: Video | null) => {
     setSelectedVideo(video);
+  };
+
+  const savePost = (post: Post, key: string) => {
+    postRespository.savePost(post, key);
+  };
+
+  const removePost = (post: PostData) => {
+    postRespository.removePost(post);
   };
 
   useEffect(() => {
@@ -36,7 +49,7 @@ function App({ youtube, postRespository }: AppProps) {
               video.snippet.title !== 'Private video'
           )
         );
-        setUpdatedVideo(
+        setUpdatedVideos(
           videos
             .sort((a: Video, b: Video) => {
               return a.snippet.publishedAt < b.snippet.publishedAt ? 1 : -1;
@@ -49,19 +62,33 @@ function App({ youtube, postRespository }: AppProps) {
       });
   }, [youtube]);
 
+  useEffect(() => {
+    const stopRead = postRespository.getPost((postData) => {
+      setPosts(postData);
+    });
+    return () => stopRead();
+  }, [postRespository]);
+
   return (
     <div className={`${styles.container} pageContainer`}>
       <section className={`mainSection ${styles.section} ${styles.main}`}>
         <Main />
       </section>
       <section className={`updatedSection ${styles.updated} ${styles.section}`}>
-        <MusicUpdate onVideoClick={onVideoClick} updatedVideo={updatedVideo} />
+        <MusicUpdate
+          onVideoClick={onVideoClick}
+          updatedVideos={updatedVideos}
+        />
       </section>
       <section className={`listSection ${styles.list} ${styles.section}`}>
         <MusicList videos={videos} onVideoClick={onVideoClick} />
       </section>
       <section className={`requestSection ${styles.section} ${styles.request}`}>
-        <MusicRequest postRespository={postRespository} />
+        <MusicRequest
+          savePost={savePost}
+          removePost={removePost}
+          postsData={posts}
+        />
       </section>
       <Navigation />
       {selectedVideo && (

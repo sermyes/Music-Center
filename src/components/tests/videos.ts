@@ -40,7 +40,7 @@ export const fakeVideos: Video[] = [
     snippet: {
       publishedAt: '' + new Date(),
       channelId: '1',
-      title: 'title',
+      title: 'title1',
       description: 'desc',
       thumbnails: {
         default: {},
@@ -71,7 +71,7 @@ export const fakeVideos: Video[] = [
     snippet: {
       publishedAt: '' + new Date(),
       channelId: '2',
-      title: 'title',
+      title: 'title2',
       description: 'desc',
       thumbnails: {
         default: {},
@@ -102,7 +102,7 @@ export const fakeVideos: Video[] = [
     snippet: {
       publishedAt: '' + new Date(),
       channelId: '3',
-      title: 'title',
+      title: 'title3',
       description: 'desc',
       thumbnails: {
         default: {},
@@ -121,37 +121,6 @@ export const fakeVideos: Video[] = [
       resourceId: {
         kind: '3',
         videoId: '3'
-      },
-      videoOwnerChannelTitle: '',
-      videoOwnerChannelId: ''
-    }
-  },
-  {
-    kind: 'kind',
-    etag: 'etag',
-    id: '4',
-    snippet: {
-      publishedAt: '' + new Date(),
-      channelId: '4',
-      title: 'title',
-      description: 'desc',
-      thumbnails: {
-        default: {},
-        medium: {
-          url: 'https://image/',
-          width: 10,
-          height: 10
-        },
-        high: {},
-        standard: {},
-        maxres: {}
-      },
-      channelTitle: 'channelTitle',
-      playlistId: '4',
-      position: 123,
-      resourceId: {
-        kind: '4',
-        videoId: '4'
       },
       videoOwnerChannelTitle: '',
       videoOwnerChannelId: ''

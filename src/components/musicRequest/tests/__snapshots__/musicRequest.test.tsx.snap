@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Music Request renders correctly 1`] = `
+Array [
+  <div
+    className="titleContainer"
+  >
+    <h2
+      className="title"
+    >
+      Music Request
+    </h2>
+  </div>,
+  <div
+    className="boardContainer"
+  >
+    <div
+      className="board"
+      id="style"
+    >
+      <div
+        className="container"
+      >
+        <div
+          className="lists boardList"
+          onClick={[Function]}
+        >
+          <div
+            className="rc-scrollbars-container"
+            style={
+              Object {
+                "height": "100%",
+                "overflow": "hidden",
+                "position": "relative",
+                "width": "100%",
+              }
+            }
+          >
+            <div
+              className="rc-scrollbars-view"
+              style={
+                Object {
+                  "WebkitOverflowScrolling": "touch",
+                  "bottom": 0,
+                  "left": 0,
+                  "marginBottom": 0,
+                  "marginRight": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            >
+              <ul />
+              <ul />
+            </div>
+            <div
+              className="rc-scrollbars-track rc-scrollbars-track-h"
+              style={
+                Object {
+                  "borderRadius": 3,
+                  "bottom": 2,
+                  "display": "none",
+                  "height": 6,
+                  "left": 2,
+                  "opacity": 0,
+                  "position": "absolute",
+                  "right": 2,
+                  "transition": "opacity 200ms",
+                  "zIndex": 100,
+                }
+              }
+            >
+              <div
+                className="rc-scrollbars-thumb rc-scrollbars-thumb-h"
+                style={
+                  Object {
+                    "backgroundColor": "rgba(0,0,0,.2)",
+                    "borderRadius": "inherit",
+                    "cursor": "pointer",
+                    "display": "block",
+                    "height": "100%",
+                    "position": "relative",
+                  }
+                }
+              />
+            </div>
+            <div
+              className="rc-scrollbars-track rc-scrollbars-track-v"
+              style={
+                Object {
+                  "borderRadius": 3,
+                  "bottom": 2,
+                  "display": "none",
+                  "opacity": 0,
+                  "position": "absolute",
+                  "right": 2,
+                  "top": 2,
+                  "transition": "opacity 200ms",
+                  "width": 6,
+                  "zIndex": 100,
+                }
+              }
+            >
+              <div
+                className="rc-scrollbars-thumb rc-scrollbars-thumb-v"
+                style={
+                  Object {
+                    "backgroundColor": "rgba(0,0,0,.2)",
+                    "borderRadius": "inherit",
+                    "cursor": "pointer",
+                    "display": "block",
+                    "height": "100%",
+                    "position": "relative",
+                  }
+                }
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="form"
+        >
+          <form>
+            <fieldset
+              className="input"
+            >
+              <div
+                className="typeContainer"
+              >
+                <select
+                  className="type"
+                  defaultValue="post"
+                  id="type"
+                  name="type"
+                  onChange={[Function]}
+                >
+                  <option
+                    className="notice"
+                    value="notice"
+                  >
+                    Notice
+                  </option>
+                  <option
+                    className="request"
+                    value="post"
+                  >
+                    Request
+                  </option>
+                  <option
+                    className="question"
+                    value="question"
+                  >
+                    Talk
+                  </option>
+                </select>
+              </div>
+              <div
+                className="info"
+              >
+                <label
+                  htmlFor="id"
+                >
+                  <i
+                    className="fas fa-user"
+                  />
+                </label>
+                <input
+                  id="id"
+                  maxLength={8}
+                  minLength={1}
+                  required={true}
+                  type="text"
+                />
+                <label
+                  htmlFor="psw"
+                >
+                  <i
+                    className="fas fa-unlock"
+                  />
+                </label>
+                <input
+                  autoComplete="on"
+                  id="psw"
+                  maxLength={10}
+                  minLength={1}
+                  required={true}
+                  type="password"
+                />
+              </div>
+              <div
+                className="wrapper"
+              >
+                <textarea
+                  className="content"
+                  cols={30}
+                  required={true}
+                  rows={10}
+                />
+                <button
+                  className="confirm"
+                  onClick={[Function]}
+                >
+                  Post Reply
+                </button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
