@@ -35,7 +35,10 @@ const OptionButton = memo(
 
     return (
       <div className={styles.option}>
-        <button className={`optionBtn ${styles.optionBtn}`}>
+        <button
+          className={`optionBtn ${styles.optionBtn}`}
+          data-testid='elipsis'
+        >
           <span className={styles.elipsis}></span>
           <span className={styles.elipsis}></span>
           <span className={styles.elipsis}></span>

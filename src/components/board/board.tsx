@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import BoardItem from '../boardItem/boardItem';
 import BoardForm from '../boardForm/boardForm';
 import styles from './board.module.css';
@@ -8,25 +8,27 @@ import { Admin, Post, PostData } from '../../service/post_respository';
 interface BoardProps {
   onConfirm(post: Post, key: string): void;
   onRemove(post: PostData): void;
-  posts: PostData[];
-  notices: PostData[];
+  posts: PostData[] | [];
+  notices: PostData[] | [];
   admin: Admin;
 }
 
 const Board = ({ onConfirm, onRemove, posts, notices, admin }: BoardProps) => {
+  const [active, setActive] = useState<Boolean>(false);
   const onClick = (e: React.MouseEvent<HTMLDivElement>) => {
     const target = e.target! as HTMLElement;
-    const delBtns = document.querySelectorAll('.delBtn');
-    const targetBtn = (target.parentElement! as HTMLElement).querySelector(
-      '.delBtn'
-    )! as HTMLElement;
+    const optionBtns = document.querySelectorAll('.optionBtn');
 
-    delBtns.forEach((btn) => {
+    optionBtns.forEach((btn) => {
       btn.classList.remove('active');
     });
 
-    if (target.matches('.optionBtn')) {
-      targetBtn.classList.add('active');
+    if (target.matches('.optionBtn') && !active) {
+      setActive(true);
+      target.classList.add('active');
+    } else if (target.matches('.optionBtn') && active) {
+      setActive(false);
+      target.classList.remove('active');
     }
   };
 

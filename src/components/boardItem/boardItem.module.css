@@ -125,7 +125,7 @@
   color: rgba(0, 0, 0, 0.8);
 }
 
-:global .delBtn.active {
+:global .optionBtn.active + .delBtn {
   opacity: 1 !important;
   pointer-events: all !important;
 }

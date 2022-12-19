@@ -36,6 +36,7 @@ exports[`Board Item renders correctly 1`] = `
     >
       <button
         className="optionBtn optionBtn"
+        data-testid="elipsis"
       >
         <span
           className="elipsis"
