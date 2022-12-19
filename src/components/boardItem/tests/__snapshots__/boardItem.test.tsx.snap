@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Board Item renders correctly 1`] = `
+<li
+  className="container"
+>
+  <div
+    className="notice"
+  >
+    <span
+      className="type"
+    >
+      Notice
+    </span>
+    <span
+      className="noticeContent"
+    >
+      notice text
+    </span>
+    <p
+      className="adminWrapper"
+    >
+      <span
+        className="name"
+      >
+        1
+      </span>
+      <span
+        className="admin"
+      >
+        admin
+      </span>
+    </p>
+    <div
+      className="option"
+    >
+      <button
+        className="optionBtn optionBtn"
+      >
+        <span
+          className="elipsis"
+        />
+        <span
+          className="elipsis"
+        />
+        <span
+          className="elipsis"
+        />
+      </button>
+      <button
+        className="delBtn deleteBtn"
+        onClick={[Function]}
+      >
+        delete
+      </button>
+    </div>
+  </div>
+</li>
+`;

@@ -78,6 +78,7 @@ const BoardForm = memo(({ onConfirm, admin }: BoardFormProps) => {
             defaultValue='post'
             ref={typeRef}
             onChange={onChange}
+            data-testid='option'
           >
             <option value='notice' className={styles.notice}>
               Notice
@@ -95,6 +96,7 @@ const BoardForm = memo(({ onConfirm, admin }: BoardFormProps) => {
             <i className={`fas fa-user`}></i>
           </label>
           <input
+            data-testid='id'
             type='text'
             id='id'
             minLength={1}
@@ -106,6 +108,7 @@ const BoardForm = memo(({ onConfirm, admin }: BoardFormProps) => {
             <i className={`fas fa-unlock`}></i>
           </label>
           <input
+            data-testid='psw'
             type='password'
             id='psw'
             minLength={1}
@@ -117,6 +120,7 @@ const BoardForm = memo(({ onConfirm, admin }: BoardFormProps) => {
         </div>
         <div className={styles.wrapper}>
           <textarea
+            data-testid='content'
             className={styles.content}
             cols={30}
             rows={10}

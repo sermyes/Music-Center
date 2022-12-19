@@ -6,7 +6,7 @@ export const fakePosts: Posts = {
   },
   notice: {
     '1': {
-      content: 'notice',
+      content: 'notice text',
       date: new Date().getDate(),
       key: '1',
       name: '1',
@@ -16,7 +16,7 @@ export const fakePosts: Posts = {
   },
   question: {
     '2': {
-      content: 'question',
+      content: 'question text',
       date: new Date().getDate(),
       key: '2',
       name: '2',
@@ -26,7 +26,7 @@ export const fakePosts: Posts = {
   },
   post: {
     '3': {
-      content: 'post',
+      content: 'post text',
       date: new Date().getDate(),
       key: '3',
       name: '3',

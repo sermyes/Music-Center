@@ -4,8 +4,8 @@ import styles from './boardItem.module.css';
 
 interface BoardItemProps {
   notice?: PostData;
-  onRemove(post: PostData): void;
   post?: PostData;
+  onRemove(post: PostData): void;
   admin: Admin;
 }
 
@@ -45,7 +45,7 @@ const OptionButton = memo(
           ref={deleteRef}
           onClick={onDelete}
         >
-          삭제
+          delete
         </button>
       </div>
     );

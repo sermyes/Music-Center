@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Board Item renders correctly 1`] = `
+<form>
+  <fieldset
+    className="input"
+  >
+    <div
+      className="typeContainer"
+    >
+      <select
+        className="type"
+        data-testid="option"
+        defaultValue="post"
+        id="type"
+        name="type"
+        onChange={[Function]}
+      >
+        <option
+          className="notice"
+          value="notice"
+        >
+          Notice
+        </option>
+        <option
+          className="request"
+          value="post"
+        >
+          Request
+        </option>
+        <option
+          className="question"
+          value="question"
+        >
+          Talk
+        </option>
+      </select>
+    </div>
+    <div
+      className="info"
+    >
+      <label
+        htmlFor="id"
+      >
+        <i
+          className="fas fa-user"
+        />
+      </label>
+      <input
+        data-testid="id"
+        id="id"
+        maxLength={8}
+        minLength={1}
+        required={true}
+        type="text"
+      />
+      <label
+        htmlFor="psw"
+      >
+        <i
+          className="fas fa-unlock"
+        />
+      </label>
+      <input
+        autoComplete="on"
+        data-testid="psw"
+        id="psw"
+        maxLength={10}
+        minLength={1}
+        required={true}
+        type="password"
+      />
+    </div>
+    <div
+      className="wrapper"
+    >
+      <textarea
+        className="content"
+        cols={30}
+        data-testid="content"
+        required={true}
+        rows={10}
+      />
+      <button
+        className="confirm"
+        onClick={[Function]}
+      >
+        Post Reply
+      </button>
+    </div>
+  </fieldset>
+</form>
+`;

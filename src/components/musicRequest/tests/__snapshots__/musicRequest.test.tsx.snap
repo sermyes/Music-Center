@@ -131,6 +131,7 @@ Array [
               >
                 <select
                   className="type"
+                  data-testid="option"
                   defaultValue="post"
                   id="type"
                   name="type"
@@ -167,6 +168,7 @@ Array [
                   />
                 </label>
                 <input
+                  data-testid="id"
                   id="id"
                   maxLength={8}
                   minLength={1}
@@ -182,6 +184,7 @@ Array [
                 </label>
                 <input
                   autoComplete="on"
+                  data-testid="psw"
                   id="psw"
                   maxLength={10}
                   minLength={1}
@@ -195,6 +198,7 @@ Array [
                 <textarea
                   className="content"
                   cols={30}
+                  data-testid="content"
                   required={true}
                   rows={10}
                 />
