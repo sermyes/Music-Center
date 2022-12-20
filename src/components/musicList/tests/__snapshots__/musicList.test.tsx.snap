@@ -22,9 +22,11 @@ Array [
       >
         <div
           className="slidesContainer"
+          data-testid="container"
         >
           <div
             className="slides"
+            data-testid="slides"
           >
             <div
               className="slide"
@@ -201,6 +203,7 @@ Array [
         >
           <button
             className="prev"
+            data-testid="arrow"
             onClick={[Function]}
           >
             <i
@@ -209,6 +212,7 @@ Array [
           </button>
           <button
             className="next"
+            data-testid="arrow"
             onClick={[Function]}
           >
             <i

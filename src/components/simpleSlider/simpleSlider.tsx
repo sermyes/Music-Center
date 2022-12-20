@@ -3,7 +3,7 @@ import styles from './simpleSlider.module.css';
 
 interface SimpleSliderProps {
   settings: Settings;
-  children?: React.ReactNode;
+  children: React.ReactNode;
 }
 
 type Settings = {
@@ -212,8 +212,12 @@ const SimpleSlider = ({ settings, children }: SimpleSliderProps) => {
 
   return (
     <div className={`${styles.slider} simple__slider`}>
-      <div className={styles.slidesContainer} ref={slidesContainerRef}>
-        <div className={styles.slides} ref={slidesRef}>
+      <div
+        className={styles.slidesContainer}
+        ref={slidesContainerRef}
+        data-testid='container'
+      >
+        <div className={styles.slides} ref={slidesRef} data-testid='slides'>
           {(children! as []).map((slide, index) => (
             <div className={styles.slide} ref={slideRef} key={index}>
               {slide}
@@ -223,10 +227,20 @@ const SimpleSlider = ({ settings, children }: SimpleSliderProps) => {
       </div>
       {setting.current!.onArrow && (
         <div className={styles.arrow}>
-          <button className={styles.prev} ref={prevRef} onClick={onPrevClick}>
+          <button
+            className={styles.prev}
+            ref={prevRef}
+            onClick={onPrevClick}
+            data-testid='arrow'
+          >
             <i className={`${styles.icon} fas fa-chevron-left`}></i>
           </button>
-          <button className={styles.next} ref={nextRef} onClick={onNextClick}>
+          <button
+            className={styles.next}
+            ref={nextRef}
+            onClick={onNextClick}
+            data-testid='arrow'
+          >
             <i className={`${styles.icon} fas fa-chevron-right`}></i>
           </button>
         </div>

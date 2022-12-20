@@ -1,0 +1,445 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+<div
+  className="container pageContainer"
+>
+  <section
+    className="mainSection section main"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="mainContent"
+      >
+        <div
+          className="titleContainer"
+        >
+          <h1
+            className="title"
+          >
+            Music Center
+          </h1>
+          <p
+            className="description"
+          >
+            Free Youtube Music, Melon Top100, Club Music, Show me the money ...
+          </p>
+        </div>
+        <div
+          className="contactContainer"
+        >
+          <a
+            className="contact"
+            href="mailto:sermyes@gmail.com"
+          >
+            <i
+              className="contact_icon fas fa-envelope"
+            />
+          </a>
+          <a
+            className="contact"
+            href="tel:010-6807-5339"
+          >
+            <i
+              className="contact_icon fas fa-phone"
+            />
+          </a>
+          <a
+            className="contact"
+            href="https://github.com/sermyes/musicCenter"
+          >
+            <i
+              className="contact_icon fab fa-github"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        className="btnContainer"
+      >
+        <button
+          className="btn"
+          onClick={[Function]}
+        >
+          <i
+            className="icon fas fa-music"
+          />
+          Listen Music
+        </button>
+      </div>
+    </div>
+  </section>
+  <section
+    className="updatedSection updated section"
+  >
+    <div
+      className="titleContainer"
+    >
+      <h2
+        className="title"
+      >
+        Updated Music
+      </h2>
+    </div>
+    <div
+      className="listContainer"
+    >
+      <div
+        className="list"
+      />
+    </div>
+  </section>
+  <section
+    className="listSection list section"
+  >
+    <div
+      className="titleContainer"
+    >
+      <h2
+        className="title"
+      >
+        Music List
+      </h2>
+    </div>
+    <div
+      className="sliderContainer"
+    >
+      <div
+        className="slider"
+      >
+        <div
+          className="slider simple__slider"
+        >
+          <div
+            className="slidesContainer"
+            data-testid="container"
+          >
+            <div
+              className="slides"
+              data-testid="slides"
+            />
+          </div>
+          <div
+            className="arrow"
+          >
+            <button
+              className="prev"
+              data-testid="arrow"
+              onClick={[Function]}
+            >
+              <i
+                className="icon fas fa-chevron-left"
+              />
+            </button>
+            <button
+              className="next"
+              data-testid="arrow"
+              onClick={[Function]}
+            >
+              <i
+                className="icon fas fa-chevron-right"
+              />
+            </button>
+          </div>
+          <ul
+            className="dots simple__dots"
+            onClick={[Function]}
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    className="requestSection section request"
+  >
+    <div
+      className="titleContainer"
+    >
+      <h2
+        className="title"
+      >
+        Music Request
+      </h2>
+    </div>
+    <div
+      className="boardContainer"
+    >
+      <div
+        className="board"
+        id="style"
+      >
+        <div
+          className="container"
+        >
+          <div
+            className="lists boardList"
+            onClick={[Function]}
+          >
+            <div
+              className="rc-scrollbars-container"
+              style={
+                Object {
+                  "height": "100%",
+                  "overflow": "hidden",
+                  "position": "relative",
+                  "width": "100%",
+                }
+              }
+            >
+              <div
+                className="rc-scrollbars-view"
+                style={
+                  Object {
+                    "WebkitOverflowScrolling": "touch",
+                    "bottom": 0,
+                    "left": 0,
+                    "marginBottom": 0,
+                    "marginRight": 0,
+                    "overflow": "scroll",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <ul />
+                <ul />
+              </div>
+              <div
+                className="rc-scrollbars-track rc-scrollbars-track-h"
+                style={
+                  Object {
+                    "borderRadius": 3,
+                    "bottom": 2,
+                    "display": "none",
+                    "height": 6,
+                    "left": 2,
+                    "opacity": 0,
+                    "position": "absolute",
+                    "right": 2,
+                    "transition": "opacity 200ms",
+                    "zIndex": 100,
+                  }
+                }
+              >
+                <div
+                  className="rc-scrollbars-thumb rc-scrollbars-thumb-h"
+                  style={
+                    Object {
+                      "backgroundColor": "rgba(0,0,0,.2)",
+                      "borderRadius": "inherit",
+                      "cursor": "pointer",
+                      "display": "block",
+                      "height": "100%",
+                      "position": "relative",
+                    }
+                  }
+                />
+              </div>
+              <div
+                className="rc-scrollbars-track rc-scrollbars-track-v"
+                style={
+                  Object {
+                    "borderRadius": 3,
+                    "bottom": 2,
+                    "display": "none",
+                    "opacity": 0,
+                    "position": "absolute",
+                    "right": 2,
+                    "top": 2,
+                    "transition": "opacity 200ms",
+                    "width": 6,
+                    "zIndex": 100,
+                  }
+                }
+              >
+                <div
+                  className="rc-scrollbars-thumb rc-scrollbars-thumb-v"
+                  style={
+                    Object {
+                      "backgroundColor": "rgba(0,0,0,.2)",
+                      "borderRadius": "inherit",
+                      "cursor": "pointer",
+                      "display": "block",
+                      "height": "100%",
+                      "position": "relative",
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="form"
+          >
+            <form>
+              <fieldset
+                className="input"
+              >
+                <div
+                  className="typeContainer"
+                >
+                  <select
+                    className="type"
+                    data-testid="option"
+                    defaultValue="post"
+                    id="type"
+                    name="type"
+                    onChange={[Function]}
+                  >
+                    <option
+                      className="notice"
+                      value="notice"
+                    >
+                      Notice
+                    </option>
+                    <option
+                      className="request"
+                      value="post"
+                    >
+                      Request
+                    </option>
+                    <option
+                      className="question"
+                      value="question"
+                    >
+                      Talk
+                    </option>
+                  </select>
+                </div>
+                <div
+                  className="info"
+                >
+                  <label
+                    htmlFor="id"
+                  >
+                    <i
+                      className="fas fa-user"
+                    />
+                  </label>
+                  <input
+                    data-testid="id"
+                    id="id"
+                    maxLength={8}
+                    minLength={1}
+                    required={true}
+                    type="text"
+                  />
+                  <label
+                    htmlFor="psw"
+                  >
+                    <i
+                      className="fas fa-unlock"
+                    />
+                  </label>
+                  <input
+                    autoComplete="on"
+                    data-testid="psw"
+                    id="psw"
+                    maxLength={10}
+                    minLength={1}
+                    required={true}
+                    type="password"
+                  />
+                </div>
+                <div
+                  className="wrapper"
+                >
+                  <textarea
+                    className="content"
+                    cols={30}
+                    data-testid="content"
+                    required={true}
+                    rows={10}
+                  />
+                  <button
+                    className="confirm"
+                    onClick={[Function]}
+                  >
+                    Post Reply
+                  </button>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <nav
+    className="nav"
+  >
+    <button
+      className="btn"
+      onClick={[Function]}
+    >
+      <i
+        className="icon icon fas fa-bars"
+      />
+    </button>
+    <div
+      className="wrapper mui"
+    >
+      <ul
+        className="ul"
+      >
+        <li
+          className="menu menu"
+          data-index="0"
+          onClick={[Function]}
+        >
+          <i
+            className="ico fas fa-home"
+          />
+          <span
+            className="text muiText"
+          >
+            Home
+          </span>
+        </li>
+        <li
+          className="menu menu"
+          data-index="1"
+          onClick={[Function]}
+        >
+          <span
+            className="text"
+          >
+            New
+          </span>
+        </li>
+        <li
+          className="menu menu"
+          data-index="2"
+          onClick={[Function]}
+        >
+          <i
+            className="ico fas fa-music"
+          />
+          <span
+            className="text muiText"
+          >
+            List
+          </span>
+        </li>
+        <li
+          className="menu menu"
+          data-index="3"
+          onClick={[Function]}
+        >
+          <i
+            className="ico fas fa-comment"
+          />
+          <span
+            className="text muiText"
+          >
+            Comment
+          </span>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+`;

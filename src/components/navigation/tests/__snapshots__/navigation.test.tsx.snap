@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation renders correctly 1`] = `
+<nav
+  className="nav"
+>
+  <button
+    className="btn"
+    onClick={[Function]}
+  >
+    <i
+      className="icon icon fas fa-bars"
+    />
+  </button>
+  <div
+    className="wrapper mui"
+  >
+    <ul
+      className="ul"
+    >
+      <li
+        className="menu menu"
+        data-index="0"
+        onClick={[Function]}
+      >
+        <i
+          className="ico fas fa-home"
+        />
+        <span
+          className="text muiText"
+        >
+          Home
+        </span>
+      </li>
+      <li
+        className="menu menu"
+        data-index="1"
+        onClick={[Function]}
+      >
+        <span
+          className="text"
+        >
+          New
+        </span>
+      </li>
+      <li
+        className="menu menu"
+        data-index="2"
+        onClick={[Function]}
+      >
+        <i
+          className="ico fas fa-music"
+        />
+        <span
+          className="text muiText"
+        >
+          List
+        </span>
+      </li>
+      <li
+        className="menu menu"
+        data-index="3"
+        onClick={[Function]}
+      >
+        <i
+          className="ico fas fa-comment"
+        />
+        <span
+          className="text muiText"
+        >
+          Comment
+        </span>
+      </li>
+    </ul>
+  </div>
+</nav>
+`;

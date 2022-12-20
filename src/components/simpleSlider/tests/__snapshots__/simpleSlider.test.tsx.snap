@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SimpleSlider renders correctly 1`] = `
+<div
+  className="slider simple__slider"
+>
+  <div
+    className="slidesContainer"
+    data-testid="container"
+  >
+    <div
+      className="slides"
+      data-testid="slides"
+    >
+      <div
+        className="slide"
+      >
+        <div>
+          <p>
+            1
+          </p>
+        </div>
+      </div>
+      <div
+        className="slide"
+      >
+        <div>
+          <p>
+            2
+          </p>
+        </div>
+      </div>
+      <div
+        className="slide"
+      >
+        <div>
+          <p>
+            3
+          </p>
+        </div>
+      </div>
+      <div
+        className="slide"
+      >
+        <div>
+          <p>
+            4
+          </p>
+        </div>
+      </div>
+      <div
+        className="slide"
+      >
+        <div>
+          <p>
+            5
+          </p>
+        </div>
+      </div>
+      <div
+        className="slide"
+      >
+        <div>
+          <p>
+            6
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="arrow"
+  >
+    <button
+      className="prev"
+      data-testid="arrow"
+      onClick={[Function]}
+    >
+      <i
+        className="icon fas fa-chevron-left"
+      />
+    </button>
+    <button
+      className="next"
+      data-testid="arrow"
+      onClick={[Function]}
+    >
+      <i
+        className="icon fas fa-chevron-right"
+      />
+    </button>
+  </div>
+  <ul
+    className="dots simple__dots"
+    onClick={[Function]}
+  />
+</div>
+`;

@@ -120,7 +120,7 @@ function App({ youtube, postRespository }: AppProps) {
 
   useEffect(() => {
     youtube
-      .playList() //
+      .playList()
       .then((videos) => {
         setVideos(
           videos.filter(
@@ -137,9 +137,7 @@ function App({ youtube, postRespository }: AppProps) {
             .slice(0, 3)
         );
       })
-      .catch((error) => {
-        throw new Error(error);
-      });
+      .catch((error) => console.log(error));
   }, [youtube]);
 
   useEffect(() => {
