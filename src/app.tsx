@@ -65,7 +65,7 @@ function App({ youtube, postRespository }: AppProps) {
     setIndex(idx);
   };
 
-  const onWheel = useCallback(
+  const wheelHandler = useCallback(
     (e: any) => {
       e.preventDefault();
       let nextIndex;
@@ -148,14 +148,24 @@ function App({ youtube, postRespository }: AppProps) {
   }, [postRespository]);
 
   useEffect(() => {
-    window.addEventListener('keyup', keyupHandler);
-    mainRef.current!.addEventListener('wheel', onWheel, { passive: false });
-    updateRef.current!.addEventListener('wheel', onWheel, { passive: false });
-    listRef.current!.addEventListener('wheel', onWheel, { passive: false });
-    requestRef.current!.addEventListener('wheel', onWheel, { passive: false });
+    mainRef.current!.addEventListener('keyup', keyupHandler);
+    updateRef.current!.addEventListener('keyup', keyupHandler);
+    listRef.current!.addEventListener('keyup', keyupHandler);
+    requestRef.current!.addEventListener('keyup', keyupHandler);
 
-    return () => window.removeEventListener('keyup', keyupHandler);
-  }, [keyupHandler, mainRef, updateRef, listRef, requestRef, onWheel]);
+    mainRef.current!.addEventListener('wheel', wheelHandler, {
+      passive: false
+    });
+    updateRef.current!.addEventListener('wheel', wheelHandler, {
+      passive: false
+    });
+    listRef.current!.addEventListener('wheel', wheelHandler, {
+      passive: false
+    });
+    requestRef.current!.addEventListener('wheel', wheelHandler, {
+      passive: false
+    });
+  }, [mainRef, updateRef, listRef, requestRef, wheelHandler, keyupHandler]);
 
   useEffect(() => {
     const idx = Math.round(window.scrollY / mainRef.current!.scrollHeight);
@@ -168,12 +178,14 @@ function App({ youtube, postRespository }: AppProps) {
       <section
         ref={mainRef}
         className={`mainSection ${styles.section} ${styles.main}`}
+        data-testid='page'
       >
         <Main />
       </section>
       <section
         ref={updateRef}
         className={`updatedSection ${styles.updated} ${styles.section}`}
+        data-testid='page'
       >
         <MusicUpdate
           onVideoClick={onVideoClick}
@@ -183,12 +195,14 @@ function App({ youtube, postRespository }: AppProps) {
       <section
         ref={listRef}
         className={`listSection ${styles.list} ${styles.section}`}
+        data-testid='page'
       >
         <MusicList videos={videos} onVideoClick={onVideoClick} />
       </section>
       <section
         ref={requestRef}
         className={`requestSection ${styles.section} ${styles.request}`}
+        data-testid='page'
       >
         <MusicRequest
           savePost={savePost}

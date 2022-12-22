@@ -35,7 +35,11 @@ const Main = memo(() => {
         </div>
       </div>
       <div className={styles.btnContainer}>
-        <button className={styles.btn} onClick={onClick}>
+        <button
+          className={styles.btn}
+          onClick={onClick}
+          data-testid='goToMusic'
+        >
           <i className={`${styles.icon} fas fa-music`} />
           Listen Music
         </button>

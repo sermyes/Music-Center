@@ -47,6 +47,7 @@ const OptionButton = memo(
           className={`delBtn ${styles.deleteBtn}`}
           ref={deleteRef}
           onClick={onDelete}
+          data-testid='deleteBtn'
         >
           delete
         </button>
@@ -99,7 +100,7 @@ const BoardItem = memo(({ notice, onRemove, post, admin }: BoardItemProps) => {
   return (
     <li className={styles.container}>
       {post && (
-        <div className={styles.item}>
+        <div className={styles.item} data-testid='post_item'>
           <span className={styles.type}>
             {type === 'post' ? 'Request' : ''}
           </span>
@@ -121,7 +122,7 @@ const BoardItem = memo(({ notice, onRemove, post, admin }: BoardItemProps) => {
         </div>
       )}
       {notice && (
-        <div className={styles.notice}>
+        <div className={styles.notice} data-testid='notice_item'>
           <span className={styles.type}>Notice</span>
           <span className={styles.noticeContent}>{notice.content}</span>
           <p className={styles.adminWrapper}>

@@ -39,6 +39,9 @@ type ResourceId = {
 };
 
 class Youtube {
+  static mockImplementation(arg0: () => {}) {
+    throw new Error('Method not implemented.');
+  }
   constructor(private client: AxiosInstance) {}
   async playList(): Promise<Video[]> {
     const response = await this.client.get('playlistItems', {

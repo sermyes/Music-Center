@@ -1,0 +1,272 @@
+{
+  "kind": "youtube#playlistItemListResponse",
+  "etag": "5xoFHA0eZFRJxASR0nRE2b-eNwM",
+  "items": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "rLsc0cJRNyfZvBVtyHAEj5Bbg4o",
+      "id": "UEw0ZkJWd1NULTYzb0tucHZHYnQwT2s3UWtoM1AyMlBsbS5DQUNERDQ2NkIzRUQxNTY1",
+      "snippet": {
+        "publishedAt": "2021-01-18T14:25:40Z",
+        "channelId": "UCRL9EMtE0YPXMendv1L132A",
+        "title": "video1",
+        "description": "#플레이리스트 #빅뱅 #빅뱅노래모음 #추억의남자아이돌노래\n\n그 시절 우리가 사랑했던 빅뱅 노래 모음\n\n⚪ 이 영상으로 수익을 창출하지 않습니다. 발생하는 모든 수익은 저작권자에게 돌아갑니다.\n⚪️ 영상이 일정 조회수를 달성하면, 유튜브 측에서 자동으로 광고를 넣습니다. 제겐 광고를 넣거나 뺄 수 있는 권한이 없습니다.\n⚪ 타임라인은 아래를 확인해주세요.\n\n📍 타임라인\n00:00:00 1\n00:03:24 2\n00:06:40 3\n00:10:37 4\n00:14:29 5\n00:18:24 6\n00:21:48 7\n00:25:29 8\n00:29:21 9\n00:33:13 10\n00:37:29 11\n00:41:16 12\n00:45:14 13\n00:48:31 14\n00:52:10 15\n00:55:17 16\n00:59:03 17\n01:02:35 18\n01:05:45 19\n01:09:31 20\n01:13:23 21\n01:16:54 22\n01:21:34 23\n01:25:27 24\n01:29:11 25\n01:32:53 26\n01:36:43 27\n01:40:34 28\n01:43:50 29\n01:48:15 30\n01:52:04 31",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dkf9DyY3JyY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dkf9DyY3JyY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dkf9DyY3JyY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/dkf9DyY3JyY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/dkf9DyY3JyY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "semo...",
+        "playlistId": "PL4fBVwST-63oKnpvGbt0Ok7Qkh3P22Plm",
+        "position": 0,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "dkf9DyY3JyY"
+        },
+        "videoOwnerChannelTitle": "동그라미 circlemusic",
+        "videoOwnerChannelId": "UCqQzFWlSNfJma_jXPHdbzjA"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "WTINlQJg0jAlYu1hs6mtYY_zMdQ",
+      "id": "UEw0ZkJWd1NULTYzb0tucHZHYnQwT2s3UWtoM1AyMlBsbS45NDk1REZENzhEMzU5MDQz",
+      "snippet": {
+        "publishedAt": "2021-01-18T14:25:49Z",
+        "channelId": "UCRL9EMtE0YPXMendv1L132A",
+        "title": "video2",
+        "description": "✅광고 제거: 1:15:30✅\n👀음원저작권으로 인해 광고가 자동삽입됩니다.  제가 넣는거 아니에요💦(채널 수익X)\n🔻노래 목록🔻\n0:00 흔들리는 꽃들 속에서 네 샴푸향이 느껴진거야\n2:49 아로하\n6:54 모든 날, 모든 순간\n10:25 마음을 드려요\n15:05 시작\n18:27 안녕\n22:12 사랑하게 될 줄 알았어\n26:34 그때 그 아인\n31:22 좋은 사람 있으면 소개시켜줘\n34:26 첫눈처럼 너에게 가겠다\n38:16 밤하늘의 저 별처럼\n42:05 화려하지 않은 고백\n45:54 눈의 꽃\n51:36 너의 모든 순간\n55:40 너를 사랑하고 있어\n58:58 내 손을 잡아\n1:02:13 그대라는 시\n1:05:43 이제는 어떻게 사랑을 하나요\n1:09:20 돌덩이\n1:12:49 기억해줘요 내 모든 날과 그때를\n1:16:38 다시 난, 여기\n1:20:33 어느 날 우리\n1:24:36 너였다면\n1:29:09 내 눈물 모아",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Vt4PEGdqomY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Vt4PEGdqomY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Vt4PEGdqomY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Vt4PEGdqomY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Vt4PEGdqomY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "semo...",
+        "playlistId": "PL4fBVwST-63oKnpvGbt0Ok7Qkh3P22Plm",
+        "position": 1,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "Vt4PEGdqomY"
+        },
+        "videoOwnerChannelTitle": "핑팡퐁핑이",
+        "videoOwnerChannelId": "UCyhrTlMrv6N2CEroXsXfgkw"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "YYGmHJd94kzlwW6y-hsepD2M1vw",
+      "id": "UEw0ZkJWd1NULTYzb0tucHZHYnQwT2s3UWtoM1AyMlBsbS5GNjNDRDREMDQxOThCMDQ2",
+      "snippet": {
+        "publishedAt": "2021-01-18T14:26:02Z",
+        "channelId": "UCRL9EMtE0YPXMendv1L132A",
+        "title": "video3",
+        "description": "자꾸 흥얼거리게 되는 감성힙합 & 감성알앤비 플레이리스트 👀\n\n\n\n영상이 마음에 드셨다면 [ 구독 💙 ]  [ 좋아요 👍 ]  [ 알림 🔔 ]\n\n- 수익 창출을 하지 않는 채널입니다.\n- 영상 속 광고는 유튜브 저작권 규정상 자동으로 광고가 붙어요!\n- 자세한 타임라인은 고정 댓글을 확인해주세요\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n#감성힙합 #감성알앤비 #플레이리스트",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/U7dVziwSrQI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/U7dVziwSrQI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/U7dVziwSrQI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/U7dVziwSrQI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/U7dVziwSrQI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "semo...",
+        "playlistId": "PL4fBVwST-63oKnpvGbt0Ok7Qkh3P22Plm",
+        "position": 2,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "U7dVziwSrQI"
+        },
+        "videoOwnerChannelTitle": "찐막 JJINMAK",
+        "videoOwnerChannelId": "UCxGyH7vzYkZwFseTUa3yZpQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "IuPLXXWCDXkemAxiImk6FdDlvpI",
+      "id": "UEw0ZkJWd1NULTYzb0tucHZHYnQwT2s3UWtoM1AyMlBsbS4zMDg5MkQ5MEVDMEM1NTg2",
+      "snippet": {
+        "publishedAt": "2021-01-18T14:27:49Z",
+        "channelId": "UCRL9EMtE0YPXMendv1L132A",
+        "title": "video4",
+        "description": "년 클럽음악 국내 랭킹 1위 2021 - 유명한 클럽노래 리믹스 베스트 2021 -  클럽사운드 클럽노래 강추모음 2021\n년 클럽음악 국내 랭킹 1위 2021 - 유명한 클럽노래 리믹스 베스트 2021 -  클럽사운드 클럽노래 강추모음 2021\n년 클럽음악 국내 랭킹 1위 2021 - 유명한 클럽노래 리믹스 베스트 2021 -  클럽사운드 클럽노래 강추모음 2021\n\n\nhttps://youtu.be/vMzLYvbP_iQ\n\nhttps://exabit.co/ref/0X2EJA2Q5\n\n● 반갑습니다여러분~~ 즐거운 한 주 잘 지내셨습니까~ 영상 시청하시고 좋아요와 구독을 꼭 \n한번씩 눌러주시면 감사하겠습니다~~~!!!\n\nTAG:\n클럽노래,클럽음악 2021,클럽노래순위,클럽음악순위,홍대클럽 2021,이태원클럽,강남클럽,클럽아레나,클럽메이드,아레나클럽노래 2021,메이드클럽노래,이태원클럽노래,홍대클럽노래,강남클럽노래,클럽노래연속듣기,클럽음악연속듣기,클럽노래모음,클럽음악모음,홍대,이태원,강남,클럽,클럽노래리믹스,클럽리믹스,클럽음악리믹스,클럽노래차트2021,클럽음악차트,신나는클럽노래,신나는클럽음악,신나는노래,드라이브노래,클럽노래 2021,클럽리믹스2021,edm 2021,모쉬댄스뮤직,클럽노래 리믹스,일렉하우스,디제잉 장비,Alan Walker 2021,EDM 클럽노래 2021,Best Alan Walker Mix 2021,Faded,NCS,Alan Walker - Faded,Alan Walker - Alone,일렉트로닉 2021,클럽리믹스노래,유행하는 노래,티미트럼펫,강남 노래,클럽노래순위 2021,클럽노래믹스,클럽리믹스노래 2021,디제잉 기계\n#요즘클럽노래#클럽노래#클럽음악2021",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vMzLYvbP_iQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vMzLYvbP_iQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vMzLYvbP_iQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "semo...",
+        "playlistId": "PL4fBVwST-63oKnpvGbt0Ok7Qkh3P22Plm",
+        "position": 3,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "vMzLYvbP_iQ"
+        },
+        "videoOwnerChannelTitle": "N&B - 클럽사운드 88",
+        "videoOwnerChannelId": "UCQoiok55KjBsNR2oABXi54w"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "wRSaRO-DnerRsHr0LkFcdNGj3yw",
+      "id": "UEw0ZkJWd1NULTYzb0tucHZHYnQwT2s3UWtoM1AyMlBsbS41Mzk2QTAxMTkzNDk4MDhF",
+      "snippet": {
+        "publishedAt": "2021-01-18T14:28:23Z",
+        "channelId": "UCRL9EMtE0YPXMendv1L132A",
+        "title": "video5",
+        "description": "#댄스곡 #노동요 #혼성그룹",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hFv4Hd6uGQ8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hFv4Hd6uGQ8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hFv4Hd6uGQ8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/hFv4Hd6uGQ8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "semo...",
+        "playlistId": "PL4fBVwST-63oKnpvGbt0Ok7Qkh3P22Plm",
+        "position": 4,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "hFv4Hd6uGQ8"
+        },
+        "videoOwnerChannelTitle": "완댕TV",
+        "videoOwnerChannelId": "UCu23W1b8ZdyoOrPNTN2Jxzg"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "JZ79M9N-tEGQuRCB0GpLrelUaCo",
+      "id": "UEw0ZkJWd1NULTYzb0tucHZHYnQwT2s3UWtoM1AyMlBsbS41QTY1Q0UxMTVCODczNThE",
+      "snippet": {
+        "publishedAt": "2021-01-18T14:28:55Z",
+        "channelId": "UCRL9EMtE0YPXMendv1L132A",
+        "title": "video6",
+        "description": "겨울이 오면 생각나는, 추억 가득한 겨울노래 BEST",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LNKRvVNgBMI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LNKRvVNgBMI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LNKRvVNgBMI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/LNKRvVNgBMI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "semo...",
+        "playlistId": "PL4fBVwST-63oKnpvGbt0Ok7Qkh3P22Plm",
+        "position": 5,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "LNKRvVNgBMI"
+        },
+        "videoOwnerChannelTitle": "베짱이프로",
+        "videoOwnerChannelId": "UCAYmVz_o3RbevNMv3Qjjk8A"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 12,
+    "resultsPerPage": 40
+  }
+}

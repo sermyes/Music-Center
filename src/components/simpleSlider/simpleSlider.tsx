@@ -30,6 +30,7 @@ const SimpleSlider = ({ settings, children }: SimpleSliderProps) => {
   const prevRef = useRef<HTMLButtonElement>(null);
   const nextRef = useRef<HTMLButtonElement>(null);
   const dotsRef = useRef<HTMLUListElement>(null);
+
   const createSlide = useCallback(() => {
     // slide 생성.
     const slideWidth = slidesContainerRef.current!.clientWidth;
@@ -86,6 +87,7 @@ const SimpleSlider = ({ settings, children }: SimpleSliderProps) => {
     for (let i = 0; i < dotLength; i++) {
       const dot = document.createElement('li');
       dot.classList.add('simple__dot');
+      dot.setAttribute('data-testid', 'dot');
       dots.appendChild(dot);
     }
     onActive(initIndex);

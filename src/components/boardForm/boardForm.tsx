@@ -127,7 +127,11 @@ const BoardForm = memo(({ onConfirm, admin }: BoardFormProps) => {
             required
             ref={contentRef}
           ></textarea>
-          <button className={styles.confirm} onClick={onClick}>
+          <button
+            className={styles.confirm}
+            onClick={onClick}
+            data-testid='confirm'
+          >
             Post Reply
           </button>
         </div>

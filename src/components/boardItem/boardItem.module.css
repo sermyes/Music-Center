@@ -101,23 +101,29 @@
 }
 .elipsis {
   display: block;
-  border: 2px solid rgba(0, 0, 0, 0.5);
-  margin-bottom: 1px;
+  border: 1.5px solid rgba(0, 0, 0, 0.5);
+  margin-bottom: 2px;
   border-radius: 50%;
   pointer-events: none;
 }
+
+.elipsis:last-child {
+  margin-bottom: 0;
+}
+
 .deleteBtn {
-  top: -4px;
+  top: -2px;
   left: 15%;
   cursor: pointer;
   outline: none;
   font-weight: bold;
   border: 1px solid rgba(0, 0, 0, 0.6);
-  border-radius: 5px;
+  border-radius: 2px;
   position: absolute;
   opacity: 0;
   pointer-events: none;
-  width: 40px;
+  min-width: 42px;
+  line-height: 15px;
   color: rgba(0, 0, 0, 0.6);
   transition: color 0.2s;
 }

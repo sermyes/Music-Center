@@ -39,7 +39,7 @@ const Navigation = memo(
 
     return (
       <nav className={styles.nav}>
-        <button className={styles.btn} onClick={onMui}>
+        <button className={styles.btn} onClick={onMui} data-testid='mui'>
           <i className={`${styles.icon} icon fas fa-bars`} ref={iconRef}></i>
         </button>
         <div className={`${styles.wrapper} mui`} ref={wrapperRef}>
@@ -47,6 +47,7 @@ const Navigation = memo(
             <li
               className={`${styles.menu} menu`}
               data-index='0'
+              data-testid='navi'
               onClick={onClick}
             >
               <i className={`${styles.ico} fas fa-home`}></i>
@@ -55,6 +56,7 @@ const Navigation = memo(
             <li
               className={`${styles.menu} menu`}
               data-index='1'
+              data-testid='navi'
               onClick={onClick}
             >
               <span className={styles.text}>New</span>
@@ -62,6 +64,7 @@ const Navigation = memo(
             <li
               className={`${styles.menu} menu`}
               data-index='2'
+              data-testid='navi'
               onClick={onClick}
             >
               <i className={`${styles.ico} fas fa-music`}></i>
@@ -70,6 +73,7 @@ const Navigation = memo(
             <li
               className={`${styles.menu} menu`}
               data-index='3'
+              data-testid='navi'
               onClick={onClick}
             >
               <i className={`${styles.ico} fas fa-comment`}></i>

@@ -7,6 +7,11 @@ import { fakeVideos } from './videos';
 import firebaseApp from './../../service/firebase';
 import { youtubeClient } from './../../service/youtube_client';
 
+jest.mock('axios', () => {
+  return {
+    create: jest.fn()
+  };
+});
 jest.mock('../../service/youtube');
 jest.mock('../../service/post_respository');
 

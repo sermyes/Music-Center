@@ -6,7 +6,7 @@ interface VideoDetailProps {
 }
 const VideoDetail = ({ video }: VideoDetailProps) => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} data-testid='detail_video'>
       <iframe
         className={styles.video}
         title='youtube player'

@@ -13,7 +13,7 @@ const VideoItem = memo(({ video, onVideoClick }: VideoItemProps) => {
   };
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} data-testid='video'>
       <div title='video' className={styles.video} onClick={onClick}>
         <img
           className={styles.thumbnail}
