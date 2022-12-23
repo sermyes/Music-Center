@@ -93,6 +93,14 @@ function App({ youtube, postRespository }: AppProps) {
     });
   };
 
+  const goToMusic = () => {
+    window.scrollTo({
+      top: updateRef.current!.offsetTop,
+      left: 0,
+      behavior: 'smooth'
+    });
+  };
+
   const moveTo = (index: number) => {
     let offset;
     switch (index) {
@@ -180,7 +188,7 @@ function App({ youtube, postRespository }: AppProps) {
         className={`mainSection ${styles.section} ${styles.main}`}
         data-testid='page'
       >
-        <Main />
+        <Main goToMusic={goToMusic} />
       </section>
       <section
         ref={updateRef}

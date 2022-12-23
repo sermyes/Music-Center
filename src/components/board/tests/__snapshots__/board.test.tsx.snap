@@ -41,6 +41,7 @@ exports[`Board renders correctly 1`] = `
           >
             <div
               className="notice"
+              data-testid="notice_item"
             >
               <span
                 className="type"
@@ -85,6 +86,7 @@ exports[`Board renders correctly 1`] = `
                 </button>
                 <button
                   className="delBtn deleteBtn"
+                  data-testid="deleteBtn"
                   onClick={[Function]}
                 >
                   delete
@@ -93,7 +95,73 @@ exports[`Board renders correctly 1`] = `
             </div>
           </li>
         </ul>
-        <ul />
+        <ul>
+          <li
+            className="container"
+          >
+            <div
+              className="item"
+              data-testid="post_item"
+            >
+              <span
+                className="type"
+              >
+                Request
+              </span>
+              <p
+                className="itemContent"
+              >
+                <span>
+                  post text
+                </span>
+              </p>
+              <p
+                className="nameWrapper"
+              >
+                <span
+                  className="name"
+                >
+                  3
+                </span>
+                <span
+                  className="writer"
+                >
+                  작성자
+                </span>
+              </p>
+              <span
+                className="date"
+              >
+                53년전
+              </span>
+              <div
+                className="option"
+              >
+                <button
+                  className="optionBtn optionBtn"
+                  data-testid="elipsis"
+                >
+                  <span
+                    className="elipsis"
+                  />
+                  <span
+                    className="elipsis"
+                  />
+                  <span
+                    className="elipsis"
+                  />
+                </button>
+                <button
+                  className="delBtn deleteBtn"
+                  data-testid="deleteBtn"
+                  onClick={[Function]}
+                >
+                  delete
+                </button>
+              </div>
+            </div>
+          </li>
+        </ul>
       </div>
       <div
         className="rc-scrollbars-track rc-scrollbars-track-h"
@@ -244,6 +312,7 @@ exports[`Board renders correctly 1`] = `
           />
           <button
             className="confirm"
+            data-testid="confirm"
             onClick={[Function]}
           >
             Post Reply

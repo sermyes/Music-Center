@@ -83,6 +83,7 @@ exports[`Board Item renders correctly 1`] = `
       />
       <button
         className="confirm"
+        data-testid="confirm"
         onClick={[Function]}
       >
         Post Reply

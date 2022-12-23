@@ -3,6 +3,7 @@
 exports[`VideoItem renders correctly 1`] = `
 <div
   className="container"
+  data-testid="video"
 >
   <div
     className="video"

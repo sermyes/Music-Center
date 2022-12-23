@@ -46,4 +46,21 @@ describe('Navigation', () => {
     await userEvent.click(item[3]);
     expect(moveTo).toHaveBeenCalledWith(3);
   });
+
+  it('mui', async () => {
+    render(
+      <Navigation
+        onActive={onActive}
+        moveTo={moveTo}
+        updateIndex={updateIndex}
+      />
+    );
+    const mui = screen.getByTestId('mui');
+    const container = screen.getByTestId('nav_container');
+    await userEvent.click(mui);
+    expect(container).toHaveClass('on');
+
+    await userEvent.click(mui);
+    expect(container).not.toHaveClass('on');
+  });
 });

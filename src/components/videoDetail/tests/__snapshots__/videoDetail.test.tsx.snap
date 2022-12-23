@@ -3,6 +3,7 @@
 exports[`Video Detail renders correctly 1`] = `
 <div
   className="container"
+  data-testid="detail_video"
 >
   <iframe
     allowFullScreen={true}

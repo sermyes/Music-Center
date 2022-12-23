@@ -204,6 +204,7 @@ Array [
                 />
                 <button
                   className="confirm"
+                  data-testid="confirm"
                   onClick={[Function]}
                 >
                   Post Reply

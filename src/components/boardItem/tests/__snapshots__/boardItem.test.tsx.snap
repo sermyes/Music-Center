@@ -5,32 +5,45 @@ exports[`Board Item renders correctly 1`] = `
   className="container"
 >
   <div
-    className="notice"
+    className="item"
+    data-testid="post_item"
   >
     <span
       className="type"
     >
-      Notice
-    </span>
-    <span
-      className="noticeContent"
-    >
-      notice text
+      Request
     </span>
     <p
-      className="adminWrapper"
+      className="itemContent"
+    >
+      <span>
+        post text
+      </span>
+      <span
+        className="new"
+      >
+        N
+      </span>
+    </p>
+    <p
+      className="nameWrapper"
     >
       <span
         className="name"
       >
-        1
+        3
       </span>
       <span
-        className="admin"
+        className="writer"
       >
-        admin
+        작성자
       </span>
     </p>
+    <span
+      className="date"
+    >
+      방금전
+    </span>
     <div
       className="option"
     >
@@ -50,6 +63,7 @@ exports[`Board Item renders correctly 1`] = `
       </button>
       <button
         className="delBtn deleteBtn"
+        data-testid="deleteBtn"
         onClick={[Function]}
       >
         delete

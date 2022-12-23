@@ -6,6 +6,7 @@ exports[`App renders correctly 1`] = `
 >
   <section
     className="mainSection section main"
+    data-testid="page"
   >
     <div
       className="container"
@@ -61,6 +62,7 @@ exports[`App renders correctly 1`] = `
       >
         <button
           className="btn"
+          data-testid="goToMusic"
           onClick={[Function]}
         >
           <i
@@ -73,6 +75,7 @@ exports[`App renders correctly 1`] = `
   </section>
   <section
     className="updatedSection updated section"
+    data-testid="page"
   >
     <div
       className="titleContainer"
@@ -93,6 +96,7 @@ exports[`App renders correctly 1`] = `
   </section>
   <section
     className="listSection list section"
+    data-testid="page"
   >
     <div
       className="titleContainer"
@@ -153,6 +157,7 @@ exports[`App renders correctly 1`] = `
   </section>
   <section
     className="requestSection section request"
+    data-testid="page"
   >
     <div
       className="titleContainer"
@@ -356,6 +361,7 @@ exports[`App renders correctly 1`] = `
                   />
                   <button
                     className="confirm"
+                    data-testid="confirm"
                     onClick={[Function]}
                   >
                     Post Reply
@@ -373,6 +379,7 @@ exports[`App renders correctly 1`] = `
   >
     <button
       className="btn"
+      data-testid="mui"
       onClick={[Function]}
     >
       <i
@@ -381,6 +388,7 @@ exports[`App renders correctly 1`] = `
     </button>
     <div
       className="wrapper mui"
+      data-testid="nav_container"
     >
       <ul
         className="ul"
@@ -388,6 +396,7 @@ exports[`App renders correctly 1`] = `
         <li
           className="menu menu"
           data-index="0"
+          data-testid="navi"
           onClick={[Function]}
         >
           <i
@@ -402,6 +411,7 @@ exports[`App renders correctly 1`] = `
         <li
           className="menu menu"
           data-index="1"
+          data-testid="navi"
           onClick={[Function]}
         >
           <span
@@ -413,6 +423,7 @@ exports[`App renders correctly 1`] = `
         <li
           className="menu menu"
           data-index="2"
+          data-testid="navi"
           onClick={[Function]}
         >
           <i
@@ -427,6 +438,7 @@ exports[`App renders correctly 1`] = `
         <li
           className="menu menu"
           data-index="3"
+          data-testid="navi"
           onClick={[Function]}
         >
           <i

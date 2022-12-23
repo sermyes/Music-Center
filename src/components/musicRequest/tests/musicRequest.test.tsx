@@ -19,6 +19,7 @@ describe('Music Request', () => {
         removePost={removePost}
       />
     );
+
     expect(component.toJSON()).toMatchSnapshot();
   });
 });

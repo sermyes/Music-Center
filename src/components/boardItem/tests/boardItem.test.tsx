@@ -15,7 +15,7 @@ describe('Board Item', () => {
 
   it('renders correctly', () => {
     const component = renderer.create(
-      <BoardItem notice={notice} admin={admin} onRemove={onRemove} />
+      <BoardItem post={post} admin={admin} onRemove={onRemove} />
     );
 
     expect(component.toJSON()).toMatchSnapshot();

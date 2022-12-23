@@ -42,7 +42,11 @@ const Navigation = memo(
         <button className={styles.btn} onClick={onMui} data-testid='mui'>
           <i className={`${styles.icon} icon fas fa-bars`} ref={iconRef}></i>
         </button>
-        <div className={`${styles.wrapper} mui`} ref={wrapperRef}>
+        <div
+          className={`${styles.wrapper} mui`}
+          ref={wrapperRef}
+          data-testid='nav_container'
+        >
           <ul className={styles.ul}>
             <li
               className={`${styles.menu} menu`}

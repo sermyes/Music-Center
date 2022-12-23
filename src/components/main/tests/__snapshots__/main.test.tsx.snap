@@ -55,6 +55,7 @@ exports[`Main Component renders correctly 1`] = `
   >
     <button
       className="btn"
+      data-testid="goToMusic"
       onClick={[Function]}
     >
       <i

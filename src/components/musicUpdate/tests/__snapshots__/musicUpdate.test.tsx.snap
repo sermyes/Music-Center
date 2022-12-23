@@ -19,6 +19,7 @@ Array [
     >
       <div
         className="container"
+        data-testid="video"
       >
         <div
           className="video"
@@ -43,6 +44,7 @@ Array [
       </div>
       <div
         className="container"
+        data-testid="video"
       >
         <div
           className="video"
@@ -67,6 +69,7 @@ Array [
       </div>
       <div
         className="container"
+        data-testid="video"
       >
         <div
           className="video"

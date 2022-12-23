@@ -1,13 +1,12 @@
 import { memo } from 'react';
 import styles from './main.module.css';
+interface MainProps {
+  goToMusic: () => void;
+}
 
-const Main = memo(() => {
+const Main = memo(({ goToMusic }: MainProps) => {
   const onClick = () => {
-    const updatedSection = document.querySelector(
-      '.updatedSection'
-    )! as HTMLElement;
-    const location = updatedSection.offsetTop;
-    window.scrollTo({ top: location, left: 0, behavior: 'smooth' });
+    goToMusic();
   };
 
   return (

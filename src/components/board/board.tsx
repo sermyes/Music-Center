@@ -26,7 +26,7 @@ const Board = ({ onConfirm, onRemove, posts, notices, admin }: BoardProps) => {
     if (target.matches('.optionBtn') && !active) {
       setActive(true);
       target.classList.add('active');
-    } else if (target.matches('.optionBtn') && active) {
+    } else {
       setActive(false);
       target.classList.remove('active');
     }

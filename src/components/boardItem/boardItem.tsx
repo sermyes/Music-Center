@@ -26,8 +26,6 @@ const OptionButton = memo(
       const type = (post ? post : notice)! as PostData;
       if (psw === String(type.psw) || psw === String(admin.psw)) {
         onRemove(type);
-      } else if (psw === null) {
-        return;
       } else {
         window.alert('권한이 없습니다.');
       }
@@ -58,6 +56,7 @@ const OptionButton = memo(
 
 const BoardItem = memo(({ notice, onRemove, post, admin }: BoardItemProps) => {
   const type = post && post.type;
+
   const getTime = (date: number) => {
     const today = new Date();
     const timeValue = new Date(date);
